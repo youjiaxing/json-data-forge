@@ -1,0 +1,5 @@
+{
+  "name": "Json数据生成器 (Smart Json Data Forge)",
+  "description": "一款基于 Gemini 的智能数据生成工具。它可以分析您提供的 JSON 样本，理解字段模式（如自增主键、枚举值、数值范围），并根据您的配置批量生成符合结构的模拟数据。",
+  "requestFramePermissions": []
+}
