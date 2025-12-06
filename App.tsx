@@ -384,7 +384,7 @@ const App: React.FC = () => {
         {!HAS_API_KEY && (
            <div className="mb-4 bg-orange-50 border border-orange-200 text-orange-800 px-4 py-2 rounded-lg text-sm flex items-center gap-2">
              <AlertCircle size={16} />
-             <span>检测到未配置 API Key，系统已自动运行在<b>本地模式</b>。数据将通过本地算法生成，不依赖 AI。</span>
+             <span>检测到未配置 API Key (可通过在 .env.local 中配置 GEMINI_API_KEY 并重新编译)，系统已自动运行在<b>本地模式</b>。数据将通过本地算法生成，不依赖 AI。</span>
            </div>
         )}
 
